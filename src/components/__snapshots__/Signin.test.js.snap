@@ -1,0 +1,853 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Sign-In Component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Signin />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="title"
+>
+          Welcome to iTin3r@ry
+</h1>,
+        <form
+          className="form-inline"
+>
+          <FormGroup
+                    bsClass="form-group"
+                    controlId="emailInput"
+                    style={
+                              Object {
+                                        "marginRight": "5px",
+                                      }
+                    }
+                    validationState={null}
+          >
+                    <InputGroup
+                              bsClass="input-group"
+                    >
+                              <InputGroupAddon
+                                        bsClass="input-group-addon"
+                              >
+                                        @
+                              </InputGroupAddon>
+                              <FormControl
+                                        bsClass="form-control"
+                                        componentClass="input"
+                                        email=""
+                                        onChange={[Function]}
+                                        placeholder="Enter email"
+                                        type="text"
+                              />
+                    </InputGroup>
+                    <FormControlFeedback
+                              bsClass="form-control-feedback"
+                              bsRole="feedback"
+                    />
+          </FormGroup>
+          <FormGroup
+                    bsClass="form-group"
+                    controlId="passwordInput"
+                    style={
+                              Object {
+                                        "marginRight": "5px",
+                                      }
+                    }
+                    validationState={null}
+          >
+                    <FormControl
+                              bsClass="form-control"
+                              componentClass="input"
+                              onChange={[Function]}
+                              password=""
+                              placeholder="Enter password (10 char, 1 sym and 1 num)"
+                              type="password"
+                    />
+                    <FormControlFeedback
+                              bsClass="form-control-feedback"
+                              bsRole="feedback"
+                    />
+          </FormGroup>
+          <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsStyle="success"
+                    disabled={false}
+                    onClick={[Function]}
+          >
+                    Sign in to your Itinerary Account
+          </Button>
+</form>,
+        <div
+          className="error-msg"
+          style={
+                    Object {
+                              "margin": "1%",
+                            }
+          }
+/>,
+        <a
+          className="signup-link"
+          onClick={[Function]}
+          style={
+                    Object {
+                              "cursor": "pointer",
+                            }
+          }
+>
+          Not a member yet? Sign Up Here!
+</a>,
+      ],
+      "style": Object {
+        "margin": "5%",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Welcome to iTin3r@ry",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Welcome to iTin3r@ry",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <FormGroup
+              bsClass="form-group"
+              controlId="emailInput"
+              style={
+                            Object {
+                                          "marginRight": "5px",
+                                        }
+              }
+              validationState={null}
+>
+              <InputGroup
+                            bsClass="input-group"
+              >
+                            <InputGroupAddon
+                                          bsClass="input-group-addon"
+                            >
+                                          @
+                            </InputGroupAddon>
+                            <FormControl
+                                          bsClass="form-control"
+                                          componentClass="input"
+                                          email=""
+                                          onChange={[Function]}
+                                          placeholder="Enter email"
+                                          type="text"
+                            />
+              </InputGroup>
+              <FormControlFeedback
+                            bsClass="form-control-feedback"
+                            bsRole="feedback"
+              />
+</FormGroup>,
+            <FormGroup
+              bsClass="form-group"
+              controlId="passwordInput"
+              style={
+                            Object {
+                                          "marginRight": "5px",
+                                        }
+              }
+              validationState={null}
+>
+              <FormControl
+                            bsClass="form-control"
+                            componentClass="input"
+                            onChange={[Function]}
+                            password=""
+                            placeholder="Enter password (10 char, 1 sym and 1 num)"
+                            type="password"
+              />
+              <FormControlFeedback
+                            bsClass="form-control-feedback"
+                            bsRole="feedback"
+              />
+</FormGroup>,
+            <Button
+              active={false}
+              block={false}
+              bsClass="btn"
+              bsStyle="success"
+              disabled={false}
+              onClick={[Function]}
+>
+              Sign in to your Itinerary Account
+</Button>,
+          ],
+          "className": "form-inline",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-group",
+              "children": Array [
+                <InputGroup
+                  bsClass="input-group"
+>
+                  <InputGroupAddon
+                                    bsClass="input-group-addon"
+                  >
+                                    @
+                  </InputGroupAddon>
+                  <FormControl
+                                    bsClass="form-control"
+                                    componentClass="input"
+                                    email=""
+                                    onChange={[Function]}
+                                    placeholder="Enter email"
+                                    type="text"
+                  />
+</InputGroup>,
+                <FormControlFeedback
+                  bsClass="form-control-feedback"
+                  bsRole="feedback"
+/>,
+              ],
+              "controlId": "emailInput",
+              "style": Object {
+                "marginRight": "5px",
+              },
+              "validationState": null,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "input-group",
+                  "children": Array [
+                    <InputGroupAddon
+                      bsClass="input-group-addon"
+>
+                      @
+</InputGroupAddon>,
+                    <FormControl
+                      bsClass="form-control"
+                      componentClass="input"
+                      email=""
+                      onChange={[Function]}
+                      placeholder="Enter email"
+                      type="text"
+/>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "bsClass": "input-group-addon",
+                      "children": "@",
+                    },
+                    "ref": null,
+                    "rendered": "@",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "bsClass": "form-control",
+                      "componentClass": "input",
+                      "email": "",
+                      "onChange": [Function],
+                      "placeholder": "Enter email",
+                      "type": "text",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "form-control-feedback",
+                  "bsRole": "feedback",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-group",
+              "children": Array [
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  onChange={[Function]}
+                  password=""
+                  placeholder="Enter password (10 char, 1 sym and 1 num)"
+                  type="password"
+/>,
+                <FormControlFeedback
+                  bsClass="form-control-feedback"
+                  bsRole="feedback"
+/>,
+              ],
+              "controlId": "passwordInput",
+              "style": Object {
+                "marginRight": "5px",
+              },
+              "validationState": null,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "form-control",
+                  "componentClass": "input",
+                  "onChange": [Function],
+                  "password": "",
+                  "placeholder": "Enter password (10 char, 1 sym and 1 num)",
+                  "type": "password",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "form-control-feedback",
+                  "bsRole": "feedback",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "block": false,
+              "bsClass": "btn",
+              "bsStyle": "success",
+              "children": "Sign in to your Itinerary Account",
+              "disabled": false,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Sign in to your Itinerary Account",
+            "type": [Function],
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "",
+          "className": "error-msg",
+          "style": Object {
+            "margin": "1%",
+          },
+        },
+        "ref": null,
+        "rendered": "",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Not a member yet? Sign Up Here!",
+          "className": "signup-link",
+          "onClick": [Function],
+          "style": Object {
+            "cursor": "pointer",
+          },
+        },
+        "ref": null,
+        "rendered": "Not a member yet? Sign Up Here!",
+        "type": "a",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="title"
+>
+            Welcome to iTin3r@ry
+</h1>,
+          <form
+            className="form-inline"
+>
+            <FormGroup
+                        bsClass="form-group"
+                        controlId="emailInput"
+                        style={
+                                    Object {
+                                                "marginRight": "5px",
+                                              }
+                        }
+                        validationState={null}
+            >
+                        <InputGroup
+                                    bsClass="input-group"
+                        >
+                                    <InputGroupAddon
+                                                bsClass="input-group-addon"
+                                    >
+                                                @
+                                    </InputGroupAddon>
+                                    <FormControl
+                                                bsClass="form-control"
+                                                componentClass="input"
+                                                email=""
+                                                onChange={[Function]}
+                                                placeholder="Enter email"
+                                                type="text"
+                                    />
+                        </InputGroup>
+                        <FormControlFeedback
+                                    bsClass="form-control-feedback"
+                                    bsRole="feedback"
+                        />
+            </FormGroup>
+            <FormGroup
+                        bsClass="form-group"
+                        controlId="passwordInput"
+                        style={
+                                    Object {
+                                                "marginRight": "5px",
+                                              }
+                        }
+                        validationState={null}
+            >
+                        <FormControl
+                                    bsClass="form-control"
+                                    componentClass="input"
+                                    onChange={[Function]}
+                                    password=""
+                                    placeholder="Enter password (10 char, 1 sym and 1 num)"
+                                    type="password"
+                        />
+                        <FormControlFeedback
+                                    bsClass="form-control-feedback"
+                                    bsRole="feedback"
+                        />
+            </FormGroup>
+            <Button
+                        active={false}
+                        block={false}
+                        bsClass="btn"
+                        bsStyle="success"
+                        disabled={false}
+                        onClick={[Function]}
+            >
+                        Sign in to your Itinerary Account
+            </Button>
+</form>,
+          <div
+            className="error-msg"
+            style={
+                        Object {
+                                    "margin": "1%",
+                                  }
+            }
+/>,
+          <a
+            className="signup-link"
+            onClick={[Function]}
+            style={
+                        Object {
+                                    "cursor": "pointer",
+                                  }
+            }
+>
+            Not a member yet? Sign Up Here!
+</a>,
+        ],
+        "style": Object {
+          "margin": "5%",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Welcome to iTin3r@ry",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Welcome to iTin3r@ry",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <FormGroup
+                bsClass="form-group"
+                controlId="emailInput"
+                style={
+                                Object {
+                                                "marginRight": "5px",
+                                              }
+                }
+                validationState={null}
+>
+                <InputGroup
+                                bsClass="input-group"
+                >
+                                <InputGroupAddon
+                                                bsClass="input-group-addon"
+                                >
+                                                @
+                                </InputGroupAddon>
+                                <FormControl
+                                                bsClass="form-control"
+                                                componentClass="input"
+                                                email=""
+                                                onChange={[Function]}
+                                                placeholder="Enter email"
+                                                type="text"
+                                />
+                </InputGroup>
+                <FormControlFeedback
+                                bsClass="form-control-feedback"
+                                bsRole="feedback"
+                />
+</FormGroup>,
+              <FormGroup
+                bsClass="form-group"
+                controlId="passwordInput"
+                style={
+                                Object {
+                                                "marginRight": "5px",
+                                              }
+                }
+                validationState={null}
+>
+                <FormControl
+                                bsClass="form-control"
+                                componentClass="input"
+                                onChange={[Function]}
+                                password=""
+                                placeholder="Enter password (10 char, 1 sym and 1 num)"
+                                type="password"
+                />
+                <FormControlFeedback
+                                bsClass="form-control-feedback"
+                                bsRole="feedback"
+                />
+</FormGroup>,
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="success"
+                disabled={false}
+                onClick={[Function]}
+>
+                Sign in to your Itinerary Account
+</Button>,
+            ],
+            "className": "form-inline",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-group",
+                "children": Array [
+                  <InputGroup
+                    bsClass="input-group"
+>
+                    <InputGroupAddon
+                                        bsClass="input-group-addon"
+                    >
+                                        @
+                    </InputGroupAddon>
+                    <FormControl
+                                        bsClass="form-control"
+                                        componentClass="input"
+                                        email=""
+                                        onChange={[Function]}
+                                        placeholder="Enter email"
+                                        type="text"
+                    />
+</InputGroup>,
+                  <FormControlFeedback
+                    bsClass="form-control-feedback"
+                    bsRole="feedback"
+/>,
+                ],
+                "controlId": "emailInput",
+                "style": Object {
+                  "marginRight": "5px",
+                },
+                "validationState": null,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "input-group",
+                    "children": Array [
+                      <InputGroupAddon
+                        bsClass="input-group-addon"
+>
+                        @
+</InputGroupAddon>,
+                      <FormControl
+                        bsClass="form-control"
+                        componentClass="input"
+                        email=""
+                        onChange={[Function]}
+                        placeholder="Enter email"
+                        type="text"
+/>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "bsClass": "input-group-addon",
+                        "children": "@",
+                      },
+                      "ref": null,
+                      "rendered": "@",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "bsClass": "form-control",
+                        "componentClass": "input",
+                        "email": "",
+                        "onChange": [Function],
+                        "placeholder": "Enter email",
+                        "type": "text",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "form-control-feedback",
+                    "bsRole": "feedback",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-group",
+                "children": Array [
+                  <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    onChange={[Function]}
+                    password=""
+                    placeholder="Enter password (10 char, 1 sym and 1 num)"
+                    type="password"
+/>,
+                  <FormControlFeedback
+                    bsClass="form-control-feedback"
+                    bsRole="feedback"
+/>,
+                ],
+                "controlId": "passwordInput",
+                "style": Object {
+                  "marginRight": "5px",
+                },
+                "validationState": null,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "form-control",
+                    "componentClass": "input",
+                    "onChange": [Function],
+                    "password": "",
+                    "placeholder": "Enter password (10 char, 1 sym and 1 num)",
+                    "type": "password",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "form-control-feedback",
+                    "bsRole": "feedback",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "block": false,
+                "bsClass": "btn",
+                "bsStyle": "success",
+                "children": "Sign in to your Itinerary Account",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Sign in to your Itinerary Account",
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+            "className": "error-msg",
+            "style": Object {
+              "margin": "1%",
+            },
+          },
+          "ref": null,
+          "rendered": "",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Not a member yet? Sign Up Here!",
+            "className": "signup-link",
+            "onClick": [Function],
+            "style": Object {
+              "cursor": "pointer",
+            },
+          },
+          "ref": null,
+          "rendered": "Not a member yet? Sign Up Here!",
+          "type": "a",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

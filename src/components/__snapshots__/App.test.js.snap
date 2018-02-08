@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Connect(Menu) />,
+        <ListGroup
+          bsClass="list-group"
+>
+          <ListGroupItem
+                    bsClass="list-group-item"
+                    header="Monday"
+                    href="#"
+                    listItem={false}
+          >
+                    February 1, 2018
+          </ListGroupItem>
+          <ListGroupItem
+                    bsClass="list-group-item"
+                    header="Tuesday"
+                    href="#"
+                    listItem={false}
+          >
+                    February 1, 2018
+          </ListGroupItem>
+          <ListGroupItem
+                    bsClass="list-group-item"
+                    header="Wednesday"
+                    href="#"
+                    listItem={false}
+          >
+                    February 1, 2018
+          </ListGroupItem>
+</ListGroup>,
+        <p
+          className="footer"
+>
+          Courtesy of CBORGTECH
+</p>,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "bsClass": "list-group",
+          "children": Array [
+            <ListGroupItem
+              bsClass="list-group-item"
+              header="Monday"
+              href="#"
+              listItem={false}
+>
+              February 1, 2018
+</ListGroupItem>,
+            <ListGroupItem
+              bsClass="list-group-item"
+              header="Tuesday"
+              href="#"
+              listItem={false}
+>
+              February 1, 2018
+</ListGroupItem>,
+            <ListGroupItem
+              bsClass="list-group-item"
+              header="Wednesday"
+              href="#"
+              listItem={false}
+>
+              February 1, 2018
+</ListGroupItem>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "list-group-item",
+              "children": "February 1, 2018",
+              "header": "Monday",
+              "href": "#",
+              "listItem": false,
+            },
+            "ref": null,
+            "rendered": "February 1, 2018",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "list-group-item",
+              "children": "February 1, 2018",
+              "header": "Tuesday",
+              "href": "#",
+              "listItem": false,
+            },
+            "ref": null,
+            "rendered": "February 1, 2018",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "list-group-item",
+              "children": "February 1, 2018",
+              "header": "Wednesday",
+              "href": "#",
+              "listItem": false,
+            },
+            "ref": null,
+            "rendered": "February 1, 2018",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Courtesy of CBORGTECH",
+          "className": "footer",
+        },
+        "ref": null,
+        "rendered": "Courtesy of CBORGTECH",
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Connect(Menu) />,
+          <ListGroup
+            bsClass="list-group"
+>
+            <ListGroupItem
+                        bsClass="list-group-item"
+                        header="Monday"
+                        href="#"
+                        listItem={false}
+            >
+                        February 1, 2018
+            </ListGroupItem>
+            <ListGroupItem
+                        bsClass="list-group-item"
+                        header="Tuesday"
+                        href="#"
+                        listItem={false}
+            >
+                        February 1, 2018
+            </ListGroupItem>
+            <ListGroupItem
+                        bsClass="list-group-item"
+                        header="Wednesday"
+                        href="#"
+                        listItem={false}
+            >
+                        February 1, 2018
+            </ListGroupItem>
+</ListGroup>,
+          <p
+            className="footer"
+>
+            Courtesy of CBORGTECH
+</p>,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "bsClass": "list-group",
+            "children": Array [
+              <ListGroupItem
+                bsClass="list-group-item"
+                header="Monday"
+                href="#"
+                listItem={false}
+>
+                February 1, 2018
+</ListGroupItem>,
+              <ListGroupItem
+                bsClass="list-group-item"
+                header="Tuesday"
+                href="#"
+                listItem={false}
+>
+                February 1, 2018
+</ListGroupItem>,
+              <ListGroupItem
+                bsClass="list-group-item"
+                header="Wednesday"
+                href="#"
+                listItem={false}
+>
+                February 1, 2018
+</ListGroupItem>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "list-group-item",
+                "children": "February 1, 2018",
+                "header": "Monday",
+                "href": "#",
+                "listItem": false,
+              },
+              "ref": null,
+              "rendered": "February 1, 2018",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "list-group-item",
+                "children": "February 1, 2018",
+                "header": "Tuesday",
+                "href": "#",
+                "listItem": false,
+              },
+              "ref": null,
+              "rendered": "February 1, 2018",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "list-group-item",
+                "children": "February 1, 2018",
+                "header": "Wednesday",
+                "href": "#",
+                "listItem": false,
+              },
+              "ref": null,
+              "rendered": "February 1, 2018",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Courtesy of CBORGTECH",
+            "className": "footer",
+          },
+          "ref": null,
+          "rendered": "Courtesy of CBORGTECH",
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
