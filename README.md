@@ -1,4 +1,4 @@
-Itinerary Apps
+Itinerary App
 
 This is a generic app that we plan to use as a planner template.
 

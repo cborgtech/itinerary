@@ -108,7 +108,10 @@ class Signup extends Component {
             Sign up to create your Itinerary Account
           </Button>
         </form>
-        <div className="error-msg" style={{ margin: "1%" }}>
+        <div
+          className="error-msg"
+          style={{ margin: "1%", paddingBottom: "6px" }}
+        >
           {this.state.error.message}
         </div>
         <a
